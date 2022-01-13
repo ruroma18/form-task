@@ -1,14 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>Registration</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <main>
+      <article class="reg-container">
+        <h2 class="reg-heading">Register</h2>
+        <p class="reg-text">
+          Create your account. It's free and only takes a minute.
+        </p>
+        <form action="" method="get" class="reg-form">
+          <input
+            type="text"
+            name="first-name"
+            class="reg-form-item reg-form-name"
+            placeholder="First Name"
+            autofocus
+            required
+            autocomplete="name"
+          />
+          <input
+            type="text"
+            name="last-name"
+            class="reg-form-item reg-form-name"
+            placeholder="Last Name"
+            required
+            autocomplete="family-name"
+          />
+          <input
+            type="email"
+            name="email"
+            class="reg-form-item"
+            placeholder="Email"
+            required
+            autocomplete
+          />
+          <input
+            type="password"
+            name="password"
+            class="reg-form-item"
+            placeholder="Password"
+            required
+          />
+          <input
+            type="password"
+            name="confirming-password"
+            class="reg-form-item"
+            placeholder="Confirm Password"
+            required
+          />
+          <label>
+            <input type="checkbox" name="accept-rules" required />
+            I accept the <a class="rules-link" href="#">Term of Use</a> &
+            <a class="rules-link" href="#">Privacy Policy</a> .
+          </label>
+          <button type="submit" class="reg-btn">Register Now</button>
+        </form>
+      </article>
+    </main>
+  </body>
 </html>
