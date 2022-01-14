@@ -54,11 +54,8 @@
 }
 
 .reg-form-item {
-  border: 1px solid inherit;
-  max-width: 400px;
-  min-width: 300px;
   margin-bottom: 20px;
-  padding: 5px;
+  padding: 10px;
   border: 2px solid lightgray;
 }
 
