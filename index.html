@@ -16,23 +16,26 @@
           Create your account. It's free and only takes a minute.
         </p>
         <form action="" method="get" class="reg-form">
-          <input
-            type="text"
-            name="first-name"
-            class="reg-form-item reg-form-name"
-            placeholder="First Name"
-            autofocus
-            required
-            autocomplete="name"
-          />
-          <input
-            type="text"
-            name="last-name"
-            class="reg-form-item reg-form-name"
-            placeholder="Last Name"
-            required
-            autocomplete="family-name"
-          />
+          <fieldset class="reg-form-name-container">
+            <input
+              type="text"
+              name="first-name"
+              class="reg-form-item reg-form-name-item"
+              placeholder="First Name"
+              autofocus
+              required
+              autocomplete="name"
+            />
+            <input
+              type="text"
+              name="last-name"
+              class="reg-form-item reg-form-name-item"
+              placeholder="Last Name"
+              required
+              autocomplete="family-name"
+            />
+          </fieldset>
+
           <input
             type="email"
             name="email"

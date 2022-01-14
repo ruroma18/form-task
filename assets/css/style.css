@@ -44,7 +44,7 @@
 }
 
 .reg-text {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .reg-form {
@@ -57,12 +57,29 @@
   border: 1px solid inherit;
   max-width: 400px;
   min-width: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 5px;
+  border: 2px solid lightgray;
 }
 
 .reg-form-item:focus {
   border: 2px solid gray;
+}
+
+.reg-form-name-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.reg-form-name-item {
+  max-width: 150px;
+  min-width: 100px;
+  width: 100%;
+}
+
+.reg-form-name-item + .reg-form-name-item {
+  margin-left: 10px;
 }
 
 .rules-link {
@@ -71,7 +88,7 @@
 }
 
 .reg-btn {
-  margin-top: 10px;
+  margin: 20px 0;
   padding: 5px 0;
   border: none;
   background: linear-gradient(
