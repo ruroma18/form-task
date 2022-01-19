@@ -10,9 +10,8 @@
   align-items: center;
   max-width: 400px;
   min-width: 300px;
-  width: 100%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px;
   background-color: #f2f3f7;
   color: #616362;
   font-size: 14px;
@@ -71,8 +70,6 @@
 
 .reg-form-name-item {
   max-width: 150px;
-  min-width: 100px;
-  width: 100%;
 }
 
 .reg-form-name-item + .reg-form-name-item {
